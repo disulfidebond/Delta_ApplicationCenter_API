@@ -121,7 +121,7 @@ def checkJobsForParameter(username, parameter):
 
 ef main(argv):
     # add username and password here, or add argparser
-    token=logon('jcaskey', 'avw-MQg-x5R-fo5')
+    token=logon('username', '*******')
 
     # must run logon() first
     resultCode, result = checkJobsForUser(username)
